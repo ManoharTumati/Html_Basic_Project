@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position_2</title>
+    <style>
+        .parent
+        {
+            width: 500px;
+            height: 1500px;
+            border: 2px solid black;
+            margin-top: 80px;
+
+           
+        }
+        .child
+        {
+            width: 200px;
+            height: 200px;
+            border: 2px solid blueviolet;
+            background-color: aqua;
+            position: absolute;
+            /*when we use sticky then child element won't leave parent element when scrolled
+             When we use fixed then it will be fixed even when scrolled
+            */
+            top: 100px;
+            bottom: 10px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+
+        </div>
+    </div>
+    
+</body>
+</html>

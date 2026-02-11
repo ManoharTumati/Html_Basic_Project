@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        p::first-letter{
+            background-color: aquamarine;
+            font-size: larger;
+        }
+        p::first-line{
+            background-color: rgb(5, 228, 57);
+        }
+        p::before
+        {
+            content: "🤣";
+        }
+       p::selection{
+            background-color: rgb(27, 205, 218);
+            color: rgb(252, 10, 211);
+        }
+        h3::before{
+            content: "😎";
+        }
+    </style >
+</head>
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus facilis aliquam labore at aut, itaque minima sed soluta commodi tempora facere, voluptate hic corrupti. Nihil maiores quis omnis obcaecati alias.</p>
+    <br>
+    <h3 > Hi hello how are you guys! What' up how life is going...</h1>
+</body>
+</html>

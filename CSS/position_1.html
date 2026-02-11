@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position_1</title>
+    <style>
+        .box
+        {
+            width: 500px;
+            height: 400px;
+            background-color: aquamarine;
+            position: static;/*when static then no style will be applied*/
+            position: absolute;
+            position: relative;
+            
+            top: 50px;
+            left: 50px;
+            /*If we use margin then it will move beside boxes away from it's position */
+            /*If we use absolute it may overlap with other element but won't move other elements from their position*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>
